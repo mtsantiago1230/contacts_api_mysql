@@ -27,7 +27,7 @@ La API permite:
 ### 1️⃣ Clonar el repositorio
 
 ```bash
-git https://github.com/mtsantiago1230/contacts_api_mysql.git
+git clone https://github.com/mtsantiago1230/contacts_api_mysql.git
 cd contacts_api_mysql
 ```
 
