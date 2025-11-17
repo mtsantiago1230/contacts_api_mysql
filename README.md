@@ -58,6 +58,36 @@ C:\xampp\htdocs\contacts_api_mysql
 Acceder en navegador o Postman:
 http://localhost/contacts_api_mysql/
 
+## 🔹 Ejemplos de solicitudes
+
+Listar todos los contactos:
+GET /contacts
+
+```bash
+http://localhost/contacts_api_mysql/contacts
+```
+
+Crear un nuevo contacto:
+POST /contacts
+
+```bash
+{
+  "first_name": "Ana",
+  "last_name": "Lopez",
+  "email": "ana@example.com",
+  "phones": ["3001112222", "3102223344"]
+}
+
+http://localhost/contacts_api_mysql/contacts
+```
+
+Eliminar un contacto por ID:
+DELETE /contacts/{id}
+
+```bash
+http://localhost/contacts_api_mysql/contacts/1
+```
+
 ## ⏱️ Tiempo de desarrollo
 
 El ejercicio completo fue desarrollado en aproximadamente **6 horas**, incluyendo:
