@@ -90,7 +90,7 @@ http://localhost/contacts_api_mysql/contacts/1
 
 ## ⏱️ Tiempo de desarrollo
 
-El ejercicio completo fue desarrollado en aproximadamente **6 horas**, incluyendo:
+El ejercicio completo fue desarrollado en aproximadamente **7 horas**, incluyendo:
 
 - Configuración del entorno
 - Arquitectura en capas
