@@ -1,0 +1,14 @@
+{
+  "name": "santiago/contacts-api",
+  "description": "API REST de contactos en PHP sin framework",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "App\\Config\\": "config/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}

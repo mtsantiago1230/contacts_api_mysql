@@ -1,0 +1,11 @@
+RewriteEngine On
+#ruta base de la aplicacion
+RewriteBase /contacts_api_mysql/ 
+
+# Si la URL está vacía (root), cargar home.php
+RewriteRule ^$ home.php [L]
+
+# Si NO es archivo ni carpeta, enviar a index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]

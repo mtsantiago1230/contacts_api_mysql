@@ -1,0 +1,34 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file (opcional)
+composer.lock
+
+# Environment / Config sensitive files
+.env
+.env.local
+.env.*.local
+
+# XAMPP / OS specific files
+*.log
+*.tmp
+*.cache
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Backup / Dump files
+*.sql
+*.bak
+*.old
+
+# PHPStorm & IDE metadata
+*.iml
+
+# Generated cache or storage
+/cache/
